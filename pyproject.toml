@@ -1,0 +1,21 @@
+[project]
+name = "fastapi-crud"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "LuizFelipe2023", email = "luizfelipefroisneves@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "fastapi[standard]>=0.165.0",
+    "scalar-fastapi>=1.11.0",
+    "sqlalchemy>=2.1.9",
+]
+
+[project.scripts]
+fastapi-crud = "fastapi_crud:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"

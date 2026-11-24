@@ -1,0 +1,18 @@
+# Ambiente virtual e cache Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Banco local SQLite e variáveis de ambiente
+*.db
+*.sqlite
+*.sqlite3
+.env
+
+# Build / dist
+build/
+dist/
